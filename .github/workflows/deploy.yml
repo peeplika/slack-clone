@@ -29,5 +29,7 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-project-id: "prj_NzRTvrezBiQbLCJef2XEQqfH313q"
+          vercel-org-id: "team_jDPcMaPPhhpzrfB5Kvmt7ewr"
           vercel-args: '--prod'
           working-dir: './'
